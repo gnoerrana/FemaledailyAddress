@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+    	<!-- START: new node -->  
+    	<add id="Femaledaily_Address::menu"
+    		 title="Femaledaily Address Log" module="Femaledaily_Address"
+    		 sortOrder="70" parent="Magento_Customer::customer"
+    		 action="femaledailyaddress/log/index"
+    		 resource="Femaledaily_Address::menu"
+    		/>
+    	<!-- END:   new node --> 
+    </menu>
+</config>
